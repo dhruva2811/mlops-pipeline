@@ -28,4 +28,4 @@ jobs:
 
       - name: Test FastAPI App
         run: |
-          python -c "import pickle; f=open('mlops/model.pkl','rb'); m=pickle.load(f); print('✅ Model loaded')"
+          python -c "import pickle; f=open('model.pkl','rb'); m=pickle.load(f); print('✅ Model loaded')"
