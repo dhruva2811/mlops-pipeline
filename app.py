@@ -23,3 +23,4 @@ def predict(data: InputFeatures):
     arr = np.array(data.features).reshape(1, -1)
     prediction = model.predict(arr).tolist()
     return {"prediction": prediction}
+"# Triggering CI" 
