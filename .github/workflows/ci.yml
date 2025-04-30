@@ -4,7 +4,10 @@ name: MLOps CI
 on:
   push:
     paths:
-      - 'mlops/**'
+      - '**.py'
+      - 'model.pkl'
+      - 'requirements.txt'
+      - '.github/workflows/**'
 
 jobs:
   test:
